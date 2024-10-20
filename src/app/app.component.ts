@@ -30,8 +30,8 @@ export class AppComponent implements OnInit {
     // Listen for route changes to hide/show the navbar
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        // Hide navbar if the current route is '/welcome'
-        this.showNavbar = !event.url.includes('/welcome');
+        // Hide navbar if the current route contains 'welcome'
+        this.showNavbar = !event.urlAfterRedirects.includes('/welcome');
       }
     });
   }

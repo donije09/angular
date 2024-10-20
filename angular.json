@@ -107,8 +107,8 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "repo": "https://github.com/donije09/myFlix-Angular-client2.git",
-            "baseHref": "/myFlix-Angular-client2/"
+            "repo": "https://github.com/donije09/angular.git",
+            "baseHref": "/angular/"
           }
         }
       }
