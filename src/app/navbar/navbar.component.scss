@@ -1,0 +1,29 @@
+mat-toolbar {
+    background-color: #3f51b5; // primary color
+    color: white;
+  
+    button {
+      background-color: blue;
+      color: white;
+      font-weight: bold;
+      margin: 0 10px;
+      border-radius: 30px; // Oval shape
+      padding: 8px 20px;
+      border: none;
+      text-transform: uppercase;
+  
+      &:hover {
+        background-color: #b0b0b0; // Ash color on hover
+        color: white;
+      }
+    }
+  
+    .spacer {
+      flex: 1 1 auto;
+    }
+  
+    button:last-child {
+      margin-left: auto;
+    }
+  }
+  
